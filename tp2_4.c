@@ -59,6 +59,7 @@ void mostrarMasVieja(compu arregloCompu[], int cantidad){
     printf(" Tipo CPU: %s\n", arregloCompu[indice].tipo_cpu);
 }
 
+
 void mostrarMasVeloz(compu arregloCompu [], int cantidad){
     int i, mayor = arregloCompu[0].velocidad, indice= 0;
     for(i=0; i < cantidad; i++){
